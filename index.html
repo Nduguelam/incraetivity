@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishimwe Ndugu | Portfolio</title>
+    <meta name="description" content="Ishimwe Ndugu's Portfolio. Web Developer, Graphic Designer, and Filmmaker.">
+    <meta name="keywords" content="portfolio, web developer, graphic designer, filmmaker, Ishimwe Ndugu">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background: #ff6b6b;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 4px solid white;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: #ff6b6b;
+            padding: 10px 0;
+        }
+
+        body {
+            padding-top: 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .projects, .skills {
+            margin-top: 40px;
+        }
+
+        .projects h2, .skills h2, .contact h2 {
+            color: #ff6b6b;
+        }
+
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .projects li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects li:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            background: #ffe66d;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact a {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ishimwe Ndugu</h1>
+        <p>Web Developer | Graphic Designer | Filmmaker</p>
+        <img src="me.jpeg" alt="Profile Photo" loading="lazy">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I am Ishimwe Ndugu, a passionate Web Developer, Graphic Designer, and Filmmaker. I love creating vibrant, engaging designs and building efficient web solutions to bring ideas to life.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> Portfolio Website - A sleek and responsive portfolio showcasing my skills.</li>
+            <li><strong>Project 2:</strong> Graphic Design Gallery - A collection of modern and vibrant graphic designs.</li>
+            <li><strong>Project 3:</strong> Short Film - A creative short film showcasing my filmmaking skills.</li>
+        </ul>
+    
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Photoshop</li>
+            <li>Filmmaking</li>
+        </ul>
+    
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:makemorex3@gmail.com">makemorex3@gmail.com</a></p>
+        <p>Phone: +250 783 969 329</p>
+        <p>Connect with me: 
+            <a href="https://linkedin.com/in/ishimwe" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/ishimwe" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ishimwe Ndugu. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
